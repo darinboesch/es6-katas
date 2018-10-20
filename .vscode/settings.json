@@ -1,0 +1,4 @@
+{
+  "mochaExplorer.files": "src/**/solved/*.test.js",
+  "mochaExplorer.optsFile": "mocha.opts"
+}

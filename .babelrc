@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "env",
+    "es2015",
+    "stage-3",
+    "latest"
+  ],
+  "plugins": [
+    ["babel-plugin-transform-builtin-extend", {
+      "globals": ["Promise"]
+    }]
+  ]
+}
