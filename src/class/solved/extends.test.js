@@ -20,6 +20,7 @@ describe('25: Classes can inherit from another using `extends`', () => {
     it('a class can extend `null`, and is not an instance of Object', () => {
       class NullClass extends null {
         constructor() {
+          super();
           let _this = Object.create(NullClass.prototype);
           return _this;
         }

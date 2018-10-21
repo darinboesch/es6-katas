@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "ES6 Tests.",
   "scripts": {
-    "test": "mocha 'src/**/solved/*.test.js' --require babel-polyfill"
+    "test": "mocha 'src/**/solved/*.test.js' --require babel-polyfill --require babel-register"
   },
   "author": "",
   "license": "ISC",
