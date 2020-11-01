@@ -15,7 +15,7 @@
     "babel-preset-latest": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "chai": "^3.5.0",
-    "mocha": "^5.2.0"
+    "mocha": "^8.2.0"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
